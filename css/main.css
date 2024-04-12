@@ -114,7 +114,7 @@ body {
 
 
   .glitter-border {
-    border: 5px solid #5a189a; 
+    border: 5px solid #090808; 
     animation: pulseAnimation 2s infinite;
 }
 
@@ -161,25 +161,25 @@ svg {
 
 
 .my-skill-box {
-    width: 100%; /* Full width */
-    background-color: #ddd; /* Grey background */
+    width: 100%;
+    background-color: #ddd; 
   }
   
   .skills {
-    text-align: right; /* Right-align text */
-    padding-top: 10px; /* Add top padding */
-    padding-bottom: 10px; /* Add bottom padding */
-    color: white; /* White text color */
+    text-align: right;
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    color: white;
   }
   
-  .html {width: 90%; background-color: #04AA6D;} /* Green */
-  .css {width: 80%; background-color: #2196F3;} /* Blue */
-  .js {width: 80%; background-color: #f44336;} /* Red */
-  .react {width: 70%; background-color: #0c0c0c;} /* Dark Grey */
-  .nodejs {width: 90%; background-color: #f3eb04;}
-  .expressJs {width: 90%; background-color: #3505f4;}
-  .python {width: 65%; background-color: #f9039f;}
-  .ai-ml {width: 60%; background-color: #f86a05;}
+  .html {width: 90%; background-color:#4793AF;}
+  .css {width: 80%; background-color:#FFC470;} 
+  .js {width: 80%; background-color: #DD5746;} 
+  .react {width: 70%; background-color: #8B322C;} 
+  .nodejs {width: 90%; background-color: #6C0345;}
+  .expressJs {width: 90%; background-color:#DC6B19;}
+  .python {width: 65%; background-color:#FF9800;}
+  .ai-ml {width: 60%; background-color: #5DEBD7;}
 
 
 #element {
@@ -195,3 +195,41 @@ svg {
     text-decoration: none;
     font-size: large;
   }
+
+
+  .card {
+    border: none; 
+    box-shadow: 0 4px 6px rgba(19, 2, 127, 0.1); 
+    transition: box-shadow 0.5s ease;
+}
+
+.card:hover {
+    box-shadow: 0 6px 10px rgba(17, 4, 190, 0.2);
+}
+
+.card-img-top {
+    border-radius: 8px 8px 0 0; 
+}
+
+.card-body {
+    border-radius: 0 0 8px 8px; 
+}
+
+.card-title {
+    color: #333;
+}
+
+.card-text {
+    color: #666; 
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; 
+    border-color: #0056b3; 
+}
+

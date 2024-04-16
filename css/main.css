@@ -6,9 +6,29 @@
 }
 
 
+
 body {
-  background-color: #adabab;
+  background-color: #76ABAE;
+  color:black;
 }
+
+#projects {
+  background-color: #31363F;
+}
+
+#skills {
+  background-color: #5356FF;
+   max-width:100%;
+}
+#about {
+  background-color:#78A083;
+}
+
+#contact {
+  background-color: #0C359E;
+  max-width:100%;
+}
+
 
 .front_para {
     font-size: 22px;
@@ -30,12 +50,13 @@ body {
     font-size: 60px;
   }
   .p-me{
-    color:rgb(8, 0, 0);
+    color:rgb(6, 4, 4);
     font-family: cursive;
     padding:20px;
     font-size: larger;
 
   }
+
 
   .heart{
 
@@ -169,17 +190,23 @@ svg {
     text-align: right;
     padding-top: 10px; 
     padding-bottom: 10px;
-    color: white;
+    color: #344955;
+  }
+  #putr{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    overflow: hidden;
   }
   
-  .html {width: 90%; background-color:#4793AF;}
-  .css {width: 80%; background-color:#FFC470;} 
-  .js {width: 80%; background-color: #DD5746;} 
-  .react {width: 70%; background-color: #8B322C;} 
-  .nodejs {width: 90%; background-color: #6C0345;}
-  .expressJs {width: 90%; background-color:#DC6B19;}
-  .python {width: 65%; background-color:#FF9800;}
-  .ai-ml {width: 60%; background-color: #5DEBD7;}
+  .html {width: 90%; background-color:#FFD23F;}
+  .css {width: 80%; background-color:#FFD23F;} 
+  .js {width: 80%; background-color: #FFD23F;} 
+  .react {width: 70%; background-color: #FFD23F;} 
+  .nodejs {width: 90%; background-color: #FFD23F;}
+  .expressJs {width: 90%; background-color:#FFD23F;}
+  .python {width: 65%; background-color:#FFD23F;}
+  .ai-ml {width: 60%; background-color: #FFD23F;}
 
 
 #element {
@@ -197,13 +224,6 @@ svg {
   }
 
 
-  /* .card {
-    border: none; 
-    box-shadow: 0 4px 6px rgba(19, 2, 127, 0.1); 
-    transition: box-shadow 0.5s ease;
-    width: 32%;
-    margin-bottom: 1rem;
-} */
 
 .card:hover {
     box-shadow: 0 6px 10px rgba(17, 4, 190, 0.2);
@@ -237,12 +257,10 @@ svg {
 
 .rows{
   display: flex;
-  /* flex-direction: column; */
-  /* width: 333px; */
   justify-content: space-between;
-  /* flex-wrap: wrap; */
+
   flex-wrap: wrap;
-  /* align-items: center; */
+
 
 }
 /* /////////////CARDS///////////////// */
@@ -264,6 +282,12 @@ svg {
   .card {
       width: calc(100% / 2 - 1rem); 
   }
+  .container {
+    padding-bottom: 140px;
+  }
+  .hi {
+    font-size:110px;
+  }
   .img-fluid{
     width: 800px;
   }
@@ -271,7 +295,7 @@ svg {
 
 @media (max-width: 767.98px) {
   .card {
-      width: calc(100% - 2rem);
+      width: calc(100% - 6rem);
   }
 }
 
@@ -288,12 +312,12 @@ svg {
 
 .footer-links a {
   display: inline-block;
-  margin-right: 10px; /* Adjust spacing between links */
+  margin-right: 10px;
 }
 
 @media (max-width: 850px) {
   .img-fluid {
-      width: calc(100% - 6rem); /* On small screens, display 1 card per row */
+      width: calc(100% - 6rem); 
   }
 
 }
